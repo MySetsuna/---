@@ -1,0 +1,22 @@
+{
+  "name": "excel-split",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start:copy": "ts-node src/xlsx-copy.ts",
+    "start:filter": "ts-node src/xlsx-filter.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "node-xlsx": "^0.23.0",
+    "xlsx-style": "^0.8.13"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  }
+}
